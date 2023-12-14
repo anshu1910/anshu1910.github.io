@@ -1,0 +1,172 @@
+
+body{
+    margin: 0px;
+    font-family: monospace;
+    
+}
+#div1 {
+    height: 55vh;
+    width: 100%;
+    opacity: 01;
+    background-image: url(Images/blk.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.horizontal{
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    
+}
+.horizontal li {
+   
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: x-large;
+    font-family: monospace;
+    
+}
+.horizontal li a{
+    color:rgba(108, 108, 108, 1);
+    text-decoration: none;
+    transition: color 0.1s;
+}
+.horizontal li a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+
+}
+#name {
+    color: white;
+    font-weight: 800;
+    padding-top: 60px;
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+}
+#name:hover{
+    color: rgba(108, 108, 108, 1);
+    
+
+}
+#icons{
+    list-style-type: none;
+    text-align: center;
+}
+#icons li{
+    display: inline-block;
+    padding-top: 20px;
+}
+#icons li img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+#image{
+    height: 15rem;
+    width: 15rem;
+    margin:auto;
+    margin-top: -16vh;
+}
+#image img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+}
+#About{
+    font-size: x-large;
+    color: rgba(52, 52, 52, 1);
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+.headings{
+    font-size: xx-large;
+    
+}
+#Education {
+    font-size: x-large;
+    color: rgba(52, 52, 52, 1);
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+
+#skillset{
+    list-style-type: none;
+    font-size: x-large;
+    color: rgba(52, 52, 52, 1);
+    margin-left: 250px;
+    
+}
+#only-this{
+    margin-left: 250px;
+}
+.row li{
+    display: inline-block;
+    padding: 25px;
+}
+#skillset li img{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+}
+
+#projects {
+    font-size: x-large;
+    color: rgba(52, 52, 52, 1);
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+#achievments {
+    font-size: x-large;
+    color: rgba(52, 52, 52, 1);
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+#pors {
+    font-size: x-large;
+    color: rgba(52, 52, 52, 1);
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+#end-of-page{
+    height: 55vh;
+    width: 100%;
+    opacity: 01;
+    background-image: url(Images/all-black-background-vxqyzaac4tdb83gr.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#contact{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: x-large
+
+
+}
+#contact p{
+    padding: 100px;
+}
+#contact  a{
+    color: white;
+    text-decoration: none;
+}
+
